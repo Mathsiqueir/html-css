@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> teste de Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            /* o ideal de de coteudo é de 1200 pixel no máximo e dependo do assunto ainda fica ruim, então de texto coloca uns 1000 pixels de largura e depois coloque menus e imagens para acrescentar ao conteudo do site, e você pode escolher se deseja algo mais simples ao mais ilustrado, entenda das cores para conseguir fazer um site com uma qualidade visual melhor.*/
+
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.379);
+            
+            min-width: 320px;
+            max-width: 800px; 
+             margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores perferendis dolorum aliquam praesentium asperiores. Quasi necessitatibus a, amet quis excepturi sit perferendis impedit neque repudiandae cumque! Tempore esse dicta autem?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores perferendis dolorum aliquam praesentium asperiores. Quasi necessitatibus a, amet quis excepturi sit perferendis impedit neque repudiandae cumque! Tempore esse dicta autem?</p>
+        
+        <picture>
+            <source media="(max-width:600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="">
+        </picture>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores perferendis dolorum aliquam praesentium asperiores. Quasi necessitatibus a, amet quis excepturi sit perferendis impedit neque repudiandae cumque! Tempore esse dicta autem?</p>
+        <input type="qual a sua duvida" enable>
+
+    </main>
+</body>
+</html>
