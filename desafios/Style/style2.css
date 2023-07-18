@@ -190,26 +190,9 @@ aside > ul {
 
 footer{
     z-index: 1;
-    background: #ed5565;
+    background: var(--cor5);
     display: grid;
     position: relative;
     grid-area: footer;
     min-height: 12rem;
-}
-.bubbels{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1rem;
-    background:  #ed5565;
-}
-.bubbel {
-    position: absolute;
-    left: var(--postion, 50%);
-    background: #ed5565;
-    border-radius: 100%;
-    animation: bubble-size
-    var(--time, 4s) ease-in infinite
-    var(--delay, 0s);
 }
