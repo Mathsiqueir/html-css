@@ -1,14 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOTOS DA MINHA GATA</title>
     <style>
-        
+        body{
+            background-color: rgb(66, 64, 64);
+            color: white;
+        }
+        p{
+            font-size: 2em;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+            opacity: 0;
+        }
+        div{
+            display: inline;
+            padding: 10px;
+            transition: 500ms;
+            margin: 20px;
+        }
+        div:hover > img{
+            opacity: 1;
+            transition: 2s;
+            
+        }
+        .button{
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .button::before
     </style>
 </head>
 <body>
-    <img src="" alt="">
-</body>
+    <h1>VOCÊ É LINDA</h1>
+    <p>clique na tela</p>
+    <div class="q1">
+        <img src="imagens/foto1.webp" alt="">
+    </div>
+    <div class="q2">
+        <img src="imagens/foto2.webp" alt="">
+    </div>
+    <div class="q3">
+        <img src="imagens/foto3.webp" alt="">
+    </div>
+    <div class="q4">
+        <img src="imagens/foto4.webp" alt="">
+    </div>
+    <div class="q5">
+        <img src="imagens/foto5.webp" alt="">
+    </div>
+    <div class="q6">
+        <img src="imagens/foto6.webp" alt="">
+    </div>
+    <div class="q7">
+        <img src="imagens/fotocasal.jpg" alt="">
+    </div>
+    
 </html>
