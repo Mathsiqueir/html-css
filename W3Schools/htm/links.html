@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        *{
+            border: 0px;
+            padding: 0px;
+        }
+        button{
+            background-color: rgba(151, 8, 8, 0.89);
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+            border-radius: 20px;
+            padding: 10px 10px;
+            display: inline-block;
+        }
+        a:link.l1, a:visited.l1{
+            line-height: 50px;
+            background-color: darkolivegreen;
+            color: white;
+            margin: 5px;
+            border: 5px;
+            padding: 15px 25px;
+            border-radius: 10px 0px 10px 0px;
+            box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, 0.377);
+        }
+        a:hover.l1, a:active.l1{
+            background-color: red;
+        }
+        a:link{
+            color: rgb(97, 138, 36);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited{
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(161, 97, 23);
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">HTML links - Hyperlinks</a></p>
+    <!--
+        _self - Default. Opens the document in the same window/tab as it was clicked
+        _blank - Opens the document in a new window or tab
+        _parent - Opens the document in the parent frame
+        _top - Opens the document in the full body of the window
+    -->
+    <h2>Image as a link</h2>
+    <p>The image below is a link. Try to click on it.</p>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_blank"><img src="https://gustavoguanabara.github.io/html-css/imagens/mascote.png" alt="HTML links tutorial" style="width: 150px;height: 150px;"></a>
+    
+    <p>Click the button to go to the HTML tutorial.</p>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_blank"><button>Button as a link</button></a>
+    
+    <h2>Link Titles</h2>
+    <p>The title attribute specifies extra information about an element.The information is most often shown as a tooltip text when the mouse moves over the element</p>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_blank" title="Go to w3schools HTML links section">Visit our HTML links Hyperlinks</a>
+
+    <h2>Link to an Email Address</h2>
+
+    <p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+
+    <p><a href="mailto:cgspires@yahoo.com.br">Send email</a></p>
+
+    <h2>Link Button</h2>
+    <p>A link styled as a button:</p>
+    <a class="l1" href="https://www.w3schools.com/html/html_links.asp" target="_blank">This is a link</a>
+</body>
+</html>
