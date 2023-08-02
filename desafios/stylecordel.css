@@ -44,10 +44,39 @@ p > a:hover, p > a:hover{
     text-decoration: underline;
 }
 
-section > p{
+section{
     font-family: var(--fonte3);
-    font-size: 3em;
-    font-weight: 500;
-    padding: 50px 0px 0px 20px;
+    font-size: 3.5vw;
+    padding: 10vh 0vh 10vh 30px;
     line-height: 2em;
+}
+section > p{
+    padding-bottom: 2em;
+    text-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.466);
+}
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    box-shadow: inset 6px 6px 13px 0px rgb(51, 51, 51);
+    background-attachment: fixed;
+    background-size: cover;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.377);
+    display: inline-block; /*juntar a background as palavras*/
+    padding: 5px;
+    
+}
+section#img1{
+    background-image: url('pacote-d012/imagens/background001.jpg');
+    background-position: right center;
+}
+section#img2{
+    background-image: url('pacote-d012/imagens/background002.jpg');
+    background-position: right center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
