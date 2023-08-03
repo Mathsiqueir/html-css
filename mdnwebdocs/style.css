@@ -1,0 +1,56 @@
+@charset 'UTF-8';
+
+*{
+    padding: 0px;
+    border: 0px;
+    border-radius: 20px;
+}
+body{
+    background-color: rgba(151, 102, 102, 0.555);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+h1{
+    text-align: center;
+}
+main{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.623), rgba(255, 0, 0, 0.587));
+    background-repeat: no-repeat;
+    text-align: justify;
+    font-size: 2em;
+    margin: auto;
+    font-weight: 900;
+    max-width: 900px;
+    min-width: 300px;
+    border-radius: 40px;
+}
+p{
+    margin: 5px 0px;
+    color: white;
+}
+ul{
+    columns: 2;
+    list-style: none;
+    color: white;
+    padding-left: 50px;
+}
+a{
+    color: white;
+}
+.imagem{
+    background-color: rgba(0, 0, 0, 0.299);
+    max-width: 900px;
+    min-width: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header#img1{
+    background-image: url('imagens/foto1.webp'); 
+}
+p#img2{
+    background-image: url('imagens/foto3.webp');
+}

@@ -62,6 +62,7 @@ section.imagem{
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.377);
+    color: white;
     display: inline-block; /*juntar a background as palavras*/
     padding: 5px;
     
