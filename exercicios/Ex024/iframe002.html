@@ -3,33 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Configurando iframes</title>
+    <title>Conteúdo local no iframe</title>
     <style>
-    body{
-        background-color: darkgray;
-    }
-    
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightskyblue;
+        }
+        iframe{
+            display: block;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: 5px 5px 16px 2px rgba(0, 0, 0, 0.39);
+        }
     </style>
 </head>
 <body>
-    <!--Tamanho padrão 300x150-->
-    <h1>Configurando Iframes</h1>
-    <p>Acessando o site do 
-        <iframe src="https://www.cursoemvideo.com" frameborder="1" height="300px" width="300px">
-            <a href="https://www.cursoemvideo.com" target="_blank">Curso em video</a>
-        </iframe> 
-        para aprender iframe
+    <h1>Apresentando seu site através de um IFRAME</h1>
+    <h2>Teste com Iframe</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae consequuntur neque nostrum nihil delectus amet voluptate asperiores, quas, exercitationem ab rem ut, aliquam alias dignissimos! Dolore sed rerum non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cum, dolor facere a ratione quam quod mollitia magni sequi eligendi officia aperiam reiciendis! Sapiente illo excepturi corrupti eos explicabo mollitia.
     </p>
-    <p>Acesse o 
-        <iframe src="https://youtube.com" frameborder="0">
-            <a href="https://youtube.com" target="_blank">Youtube</a>
-        </iframe> 
-        para ter acesso a maior rede de cursos online do mundo, Pena que não funciona dentro do iframe
+    <iframe src="paginas-extras/pag001.html" frameborder="0" height="500" width="750">
+        <p>Infelizmente seu navegador não é compativel com esse site!</p>
+    </iframe>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias vel atque at deleniti consectetur quisquam corrupti qui voluptate similique modi aut culpa cum, ipsam accusamus? Ipsam dolorum ipsum aperiam asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis odio labore commodi assumenda recusandae praesentium, consequatur non nam ipsum quos optio, sunt et molestiae corporis, provident eveniet natus? Nulla, laboriosam.
     </p>
-        <p>
-            O repositório do Guanabara
-            <iframe src="https://gustavoguanabara.github.io" frameborder="0"></iframe>
-            também é legal
-        </p>
 </body>
 </html>
