@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Style the element with the id "myHeader" */
+        #myHeader {
+          background-color: lightblue;
+          color: black;
+          padding: 40px;
+          text-align: center;
+        }
+        
+        /* Style all elements with the class name "city" */
+        .city {
+          background-color: tomato;
+          color: white;
+          padding: 10px;
+        }
+        </style>
+</head>
+<body>
+    <h2>Difference Between Class and ID</h2>
+    <p>A ckass bane cab be used by multiplle HTML elements, while an ID name must only be used bt one HTML element within the page</p>
+    <!-- An element with a unique id -->
+    <h1 id="myHeader">My Cities</h1>
+
+    <!-- Multiple elements with same class -->
+    <h2 class="city">London</h2>
+    <p>London is the capital of England.</p>
+
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>>
+
+    <a href="#C4">Chapter 4</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusantium ad repellendus similique sapiente. Vitae, cum! Obcaecati dolores consequatur velit placeat distinctio quibusdam a ducimus in minima, ratione, officiis iste.</p>
+  
+    <p id="C4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusantium ad repellendus similique sapiente. Vitae, cum! Obcaecati dolores consequatur velit placeat distinctio quibusdam a ducimus in minima, ratione, officiis iste.</p>
+    <hr>
+
+    <h3>
+        Using The id Attribute in JavaScript
+        The id attribute can also be used by JavaScript to perform some tasks for that specific element.
+        For example we have an HTML document like this:
+    </3><br/>
+    <script>
+        function displayResult() {
+          document.getElementById("linha2").innerHTML = "Have a nice day!";
+        }
+    </script>
+    <p id="linha2"></p>
+</body> 
+</html>

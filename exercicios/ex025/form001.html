@@ -11,11 +11,34 @@
     </style>
 </head>
 <body>
+    <!--
+        type = submit será o action então irá para a página que está dentro de ACTION
+
+        name e ID=
+
+        name- todo input tem nome Necessariamente
+        ID - O que vem automaticamente no JavaScript é o mais utilizado
+        
+        por isso no input se coloca os dois e se utiliza a mesma variavel para eles ou você pode diferenciar colocando algo no frente, mas não muito diferente
+
+        o FOR do label se liga ao ID do input
+
+        metodo simples para envios de formulario
+        por padrão é o GET ele mostra os dados que você digitou -> http://127.0.0.1:5500/exercicios/ex025/cadastro.php?nome=Matheus+Siqueira&sobrenome=preji
+        GET-> só permite 3000 bytes, não permite envio do link
+
+        já o method POST não mostra ->
+        
+        http://127.0.0.1:5500/exercicios/ex025/cadastro.php
+        mas não quer dizer que seja seguro, o site só não está visivel na URL
+    -->
     <h1>Meu Primeiro Formulário</h1>
-    <form action="">
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="Sobrenome" id="Sobrenome"></p>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="enviar"></p>
     </form>
 </body>
-</html>
+</html> 
