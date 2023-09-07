@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, datalist e textarea</title>
+</head>
+<body>
+    <h1>Select, datalist e textarea</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="Estado" id="iest">
+                <option value="" selected>--escolha--</option>
+                <optgroup label="Região Sudeste" >
+                    <option value="Rj">Rio de Janeiro</option>
+                    <option value="SP" >São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+        
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="Prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>  
+        <p>
+            <label for="imsg">mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="digite sua mensagem"></textarea>
+        </p>  
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+            
+        </p>
+    </form>
+</body>
+</html>
