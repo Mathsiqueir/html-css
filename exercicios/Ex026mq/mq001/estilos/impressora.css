@@ -11,8 +11,11 @@ html{
     line-height: 1.5em;
 }
 menu{
-    display: none;
+    display: none; /* Retirar o menu*/
 }
-article::after{
+article::after{ /* depois do artigo -> a frase a baixo*/
     content:'Esse artigo foi impresso através do site cursoemvideo.com';
+}
+article{
+    width: 100%;
 }

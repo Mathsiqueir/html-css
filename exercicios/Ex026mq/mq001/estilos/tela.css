@@ -11,17 +11,20 @@ html{
     
 }
 header{
-    background-color: gray;
+    
+    
 }
 header > h1{
     text-align: center;
+    padding-bottom: 10px;
+    background-color: gray;
 }
 menu ul {
     list-style-type: none;
     background-color: burlywood;
 }
 menu li{
-    display: inline-block;
+    display: inline-block; /*ficar na mesma linha*/
     background-color: aquamarine;
     padding: 10px;
     color: white;
