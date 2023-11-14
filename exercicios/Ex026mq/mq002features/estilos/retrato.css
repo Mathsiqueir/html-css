@@ -2,7 +2,10 @@
 
 /*RETRATO*/
 
-html{
-    background-color: #343434;
-
+/*body{ //saber se está na vertical
+    background-color: #030456f;
+}*/
+body{
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
 }

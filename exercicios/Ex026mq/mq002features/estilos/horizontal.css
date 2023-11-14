@@ -1,8 +1,14 @@
 @charset "UTF-8";
 
-/*Paisagem*/
+/*Paisagem 
+ no Computador essa função vira a primaria
+*/
 
-html{
-    background-color: #343434;
+/*body{ saber se estar na horizontal
+    background-color: rgb(70, 20, 140);
+}*/
 
+body{
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
 }
