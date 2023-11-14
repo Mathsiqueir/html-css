@@ -1,0 +1,3 @@
+sites desenvolvidos em mobile acabam tendo mais alcance do que desenvolvidos em pc, e sites em dispositivos moveis as vezes necessitam ser mais leves, para aquelas pessoas que tem internet um pouco prejudicada ou aparelhos um pouco mais antigos
+
+Sites desenvolvidos primariamente para o mobile contam com mais Performance 
