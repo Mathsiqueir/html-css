@@ -2,18 +2,18 @@
 /*Configurações para diferentes telas
 ===============================*/
 /**/
-@media  screen and (min-width: 768)and (max-width: 992px) { /*tablet*/
-    main{
-        width: 65%;
-    }
-}
-@media screen and (min-width: 992px) and (max-width: 1200px) { /*desktop*/
-    main{
-        width: 65%;
-    }
-}
-@media screen and (min-width:1200px) { /*TV*/
-    main{
-        width: 50%;
-    }
+@media  screen and (min-width: 768px) { /*tablet*/
+   i#burguer{
+    display: none;
+   }
+   menu{
+    display: block;
+   }
+   menu > ul > li{
+    display: inline-block;
+
+   }
+   main{
+        width: 768px; /*esse configuranção vale até a tela diminuir*/
+   }
 }
