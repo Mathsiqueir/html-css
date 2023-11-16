@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*CONFIGURAÇÕES GERAI*/
+/*CONFIGURAÇÕES GERAL mobile First*/
 
 *{
     margin: 0;
@@ -8,13 +8,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: rgb(69, 22, 107);
-    background-image: url(../imagens/back-pc.jpg);
+    background-color:lightgray;
+    background-image: url(../imagens/back-phone.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
 header{
-    background-color: darkgray;
+    background-color: rgb(148, 148, 148);
 }
 header > h1{
     text-align: center;
@@ -24,35 +24,47 @@ header > h1{
     text-shadow: 3px 3px 16px rgba(0, 0, 0, 0.487);
     
 }
+
 header ul{
     list-style-type: none;
-    display:inline-flex;
+    display:block;
     
 }
-li a{
-    text-decoration: none;
-    color: black;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.482);
-}
+
 ul li{
     color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.463);
-    margin-right: 10px;
-    background-color: gray;
+    
+    background-color: rgb(60, 60, 60);
     padding: 10px;
+    text-align: center;
+    border-top: 2px solid rgb(113, 113, 113);
 }
-
-article{
-    width: 300px;
+li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.482);
+}
+ul > li:hover{
+    transition: all 2s ;
+    background-color: gray;
+    
+}
+main{
+    width: 90%;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.700);
     margin-top: 10px;
     border-radius: 13px;
     padding: 20px;
 }
-article h2{
+article > h2{
+    padding-bottom: 15px;
 }
+
+
 article p {
-    text-align: left;
-    
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px; /*espaço entre cada paragrafó*/
 }

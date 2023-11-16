@@ -2,7 +2,7 @@
 /*Configurações para diferentes telas
 ===============================*/
 /**/
-@media  screen (min-width: 768)and (max-width: 992px) { /*tablet*/
+@media  screen and (min-width: 768)and (max-width: 992px) { /*tablet*/
     article{
         width: 65%;
     }
