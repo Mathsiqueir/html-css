@@ -9,7 +9,6 @@
 }
 body{
     background-color:lightgray;
-    background-image: url(../imagens/back-phone.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -24,13 +23,27 @@ header > h1{
     text-shadow: 3px 3px 16px rgba(0, 0, 0, 0.487);
     
 }
-
-header ul{
+menu > ul{
     list-style-type: none;
     display:block;
     
 }
-
+i#burguer{
+    background-color: rgb(48,48,48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer
+}
+i#burguer:hover{
+    transition: all 2s ease-out;
+    background-color: whitesmoke;
+    color: black;
+}
+menu{
+    display: none;
+}
 ul li{
     color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.463);

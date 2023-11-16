@@ -3,17 +3,17 @@
 ===============================*/
 /**/
 @media  screen and (min-width: 768)and (max-width: 992px) { /*tablet*/
-    article{
+    main{
         width: 65%;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) { /*desktop*/
-    article{
+    main{
         width: 65%;
     }
 }
 @media screen and (min-width:1200px) { /*TV*/
-    article{
+    main{
         width: 50%;
     }
 }
